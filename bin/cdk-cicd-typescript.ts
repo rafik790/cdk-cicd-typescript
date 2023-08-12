@@ -5,3 +5,4 @@ import { CdkCicdTypescriptStack } from '../lib/cdk-cicd-typescript-stack';
 
 const app = new cdk.App();
 new CdkCicdTypescriptStack(app, 'CdkCicdTypescriptStack');
+app.synth();
